@@ -3,3 +3,4 @@ Icon*
 *.pyc
 *.pdf
 data/
+air/stations.json
