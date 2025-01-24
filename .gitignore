@@ -1,0 +1,5 @@
+Icon*
+*.lock
+*.pyc
+*.pdf
+data/
