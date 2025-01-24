@@ -1,13 +1,13 @@
 sync: W05-08_14_GML W05-08_19_GML W12-52A-14-01.1_GML W12-52A-19-01.1_GML N03-20240101_14_GML N03-20240101_19_GML
 
 W05-08_%_GML.zip:
-	wget https://nlftp.mlit.go.jp/ksj/gml/W05/W05-08/W05-08_$*_GML.zip
+	wget https://nlftp.mlit.go.jp/ksj/gml/data/W05/W05-08/W05-08_$*_GML.zip
 
 W12-52A-%-01.1_GML.zip:
-	wget https://nlftp.mlit.go.jp/ksj/gmlold/W12/W12-52A/W12-52A-$*-01.1_GML.zip
+	wget https://nlftp.mlit.go.jp/ksj/gmlold/data/W12/W12-52A/W12-52A-$*-01.1_GML.zip
 
 N03-20240101_%_GML.zip:
-	wget https://nlftp.mlit.go.jp/ksj/gml/N03/N03-2024/N03-20240101_$*_GML.zip
+	wget https://nlftp.mlit.go.jp/ksj/gml/data/N03/N03-2024/N03-20240101_$*_GML.zip
 
 
 # W12-52A-14-01.1_GML
