@@ -95,7 +95,12 @@ def read_NOX_TD20231218_155555_51(datapath, stations):
     nox["datetime"] = pd.date_range(
         start="2000/04/01", freq="MS", periods=12 * 21
     ).tz_localize("Asia/Tokyo")
+    nox = nox.set_index("datetime")
 
+    return nox
+
+
+def monthly_to_hourly(nox):
     # 1時間ごとの時間目盛りを準備する。
     dates = pd.date_range("2000/4/1", "2021/3/31", freq="H").tz_localize("Asia/Tokyo")
     ts = pd.DataFrame()
